@@ -11,30 +11,25 @@ main() {
     int? nilaiA = int.parse(stdin.readLineSync()!);
     print("Masukkan nilai B!");
     int? nilaiB = int.parse(stdin.readLineSync()!);
-    print(Pertambahan(nilaiA, nilaiB));
+    print("Hasil: " + "${Pertambahan(nilaiA, nilaiB)}");
   } else if (pilihan == '2') {
     stdout.write("Masukkan nilai A!");
     int? nilaiA = int.parse(stdin.readLineSync()!);
     stdout.write("Masukkan nilai B!");
     int? nilaiB = int.parse(stdin.readLineSync()!);
-    print(Pengurangan(nilaiA, nilaiB));
-
+    print("Hasil: " + "${Pengurangan(nilaiA, nilaiB)}");
   } else if (pilihan == '3') {
-
     stdout.write("Masukkan nilai A!");
     int? nilaiA = int.parse(stdin.readLineSync()!);
     stdout.write("Masukkan nilai B!");
     int? nilaiB = int.parse(stdin.readLineSync()!);
-    print(Perkalian(nilaiA, nilaiB));
-
+    print("Hasil: " + "${Perkalian(nilaiA, nilaiB)}");
   } else if (pilihan == '4') {
-
     stdout.write("Masukkan nilai A!");
     int? nilaiA = int.parse(stdin.readLineSync()!);
     stdout.write("Masukkan nilai B!");
     int? nilaiB = int.parse(stdin.readLineSync()!);
-    print(Pembagian(nilaiA, nilaiB));
-
+    print("Hasil  " + "${Pembagian(nilaiA, nilaiB)}");
   }
 }
 
