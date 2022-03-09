@@ -1,7 +1,6 @@
 import 'dart:io';
 
-main(){
-
+main() {
   /*
   Data Types:
 
@@ -13,7 +12,8 @@ main(){
    */
 
   var mamang = "Babang";
-  dynamic babang = "Mamang"; //Dynamic makes variable can be changed its value, into Integer, or String, and even bool
+  dynamic babang =
+      "Mamang"; //Dynamic makes variable can be changed its value, into Integer, or String, and even bool
   babang = 0;
 
   print("$mamang"); //<- We can print variable like that
@@ -33,24 +33,22 @@ main(){
 
   //Int -> String
   String one2String = 1.toString();
-  assert (one2String == '1');
-  
+  assert(one2String == '1');
+
   //Double -> String
-  String double2String = 3.1422312.toStringAsFixed(2); //.toStringAsFixed used to just take [argument] numbers after the .
-  assert (double2String == '3.14');
+  String double2String = 3.1422312.toStringAsFixed(
+      2); //.toStringAsFixed used to just take [argument] numbers after the .
+  assert(double2String == '3.14');
 
   print(double2String); //That'll be 3.14
 
   //const variable can't be changed and const same as var. Which mean you can add the datatype without declare it
 
   const makan = "Mamang";
-  const minum  = 1;
+  const minum = 1;
 
   //Variable makan and minum cannot be changed
-  //.runtimeType checking what does the variable datatype has
+  //.runtimeType checking what does the variable data type has
 
   print(makan.runtimeType); //It'll be string
-
-  
-
 }
