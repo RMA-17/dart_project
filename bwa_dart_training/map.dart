@@ -12,4 +12,6 @@ void main() {
   //Sama seperti list, jika kita tidak menuliskan typedatanya, (Map<T>) dia akan menjadi dynamic
 
   print(mahasiswa);
+  print(mahasiswa['nama']); //Untuk memanggil salah satu value nya, kita harus menuliskan key nya didalam kurung index
+
 }
